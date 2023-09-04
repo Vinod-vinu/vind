@@ -17,8 +17,8 @@ export default function Home() {
           <div className="text-left font-bold">
             <span className="text-blue-500">Code</span>Solutions</div>
             <div className="py-10">
-              <h2 className="text-3xl font-bold text-green-500 mb-2" >Sign in to Account</h2>
-              <div className="border-2 w-10 border-green-500 inline-block mb-2"></div>
+              <h2 className="text-3xl font-bold text-blue-500 mb-2" >Sign in to Account</h2>
+              <div className="border-2 w-10 border-blue-500 inline-block mb-2"></div>
               <div className="flex justify-center my-2">
                 <a href="#" className="border-2 border-gray-200 rounded-full p-3 mx-1">
                   <FaFacebookF classname="text-sm"/>
@@ -47,16 +47,16 @@ export default function Home() {
                     <label className="flex items-center text-xs"><input type="checkbox"name="remember" className="mr-1"/>Remember me</label>
                     <a href="#" className="text-xs">Forgot Password?</a>
                   </div>
-                  <a href="#" className="border-2 border-green-500 text-green-500 rounded-full px-12 py-2 inline-block font-semibold hover:bg-green-500 hover:text-white"> sign up</a>
+                  <a href="#" className="border-2 border-blue-500 text-blue-500 rounded-full px-12 py-2 inline-block font-semibold hover:bg-blue-500 hover:text-white"> sign up</a>
               </div>
             </div>
           </div>
           
-        <div className="w-2/5 bg-green-500 text-white rounded-tr-2xl rounded-br-2xl py-36 px-12">
+        <div className="w-2/5 bg-blue-500 text-white rounded-tr-2xl rounded-br-2xl py-36 px-12">
            <h2 className="text-3xl font-bold mb-2" > Hello Friend!</h2>
            <div className="border-2 w-10 border-white inline-block mb-2"></div>
            <p className="mb-10">Fill up personal information and start journey with us.</p>
-           <a href="#" className="border-2 border-white rounded-full px-12 py-2 inline-block font-semibold hover:bg-white hover:text-green-500"> sign up</a>
+           <a href="#" className="border-2 border-white rounded-full px-12 py-2 inline-block font-semibold hover:bg-white hover:text-blue-500"> sign up</a>
         
         </div>{/*Sign up section*/}
         </div>
